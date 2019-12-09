@@ -338,6 +338,79 @@
   </offsets>
   </model> 
   
+  <model>
+  	<name>AB_flameL</name>
+    <path>Aircraft/tornado/Models/Effects/Afterburner/AfterBurner.xml</path>
+	 <offsets>
+   <x-m>6.1</x-m>
+   <y-m>-0.56</y-m>
+   <z-m>-0.83</z-m>  
+  </offsets>
+  </model> 
+ 
+ 
+  <model>
+  	<name>AB_flameR</name>
+    <path>Aircraft/tornado/Models/Effects/Afterburner/AfterBurner.xml</path>
+	 <offsets>
+   <x-m>6.1</x-m>
+   <y-m>0.56</y-m>
+   <z-m>-0.83</z-m>  
+  </offsets>
+  </model> 
+  
+  <animation>
+    <type>select</type>
+    <object-name>AB_flameL</object-name>
+    <condition>
+     <greater-than>
+  	 <property>sim/multiplay/generic/float[8]</property>
+  	 <value>0</value>
+	 </greater-than>
+    </condition>
+   </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>AB_flameR</object-name>
+    <condition>
+     <greater-than>
+  	 <property>sim/multiplay/generic/float[9]</property>
+  	 <value>0</value>
+	 </greater-than>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>scale</type>
+    <object-name>AB_flameL</object-name>
+    <property>sim/multiplay/generic/float[8]</property><!--  -->
+    <x-factor>1.0</x-factor>
+    <x-min>0.3</x-min>
+    <y-min>1.0</y-min>
+    <z-min>1.0</z-min>
+    <center>
+      	<x-m>6.1</x-m>
+	   <y-m>-0.56</y-m>
+	   <z-m>-0.83</z-m>
+    </center>
+  </animation>
+  
+  <animation>
+    <type>scale</type>
+    <object-name>AB_flameR</object-name>
+    <property>sim/multiplay/generic/float[9]</property><!--  -->
+    <x-factor>1.0</x-factor>
+    <x-min>0.3</x-min>
+    <y-min>1.0</y-min>
+    <z-min>1.0</z-min>
+    <center>
+      	<x-m>6.1</x-m>
+   		<y-m>0.56</y-m>
+   		<z-m>-0.83</z-m>
+   </center>
+  </animation>
+  
   <animation>
  <type>rotate</type>
  <object-name>rudder</object-name>

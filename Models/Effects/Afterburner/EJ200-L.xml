@@ -23,9 +23,18 @@
    <object-name>ExternalFlame</object-name>
    <condition>
     <greater-than>
-	 <property>sim/multiplay/generic/float[8]</property>
-	 <value>0.4</value>
-	</greater-than>
+  	 <property>sim/multiplay/generic/float[8]</property>
+  	 <value>0.4</value>
+	 </greater-than>
+    <not>
+      <and>
+        <property>/sim/rendering/shaders/skydome</property>
+        <greater-than>
+          <property>/sim/rendering/shaders/model</property>
+          <value>0</value>
+        </greater-than>
+    </and>
+  </not>
    </condition>
  </animation>
  

@@ -20,11 +20,21 @@
    <type>select</type>
    <object-name>ReheatInner</object-name>
    <object-name>ReheatOuter</object-name>
+   <object-name>ExternalFlame</object-name>
    <condition>
     <greater-than>
 	 <property>sim/multiplay/generic/float[9]</property>
-	 <value>0.1</value>
+	 <value>0.4</value>
 	</greater-than>
+  <not>
+      <and>
+        <property>/sim/rendering/shaders/skydome</property>
+        <greater-than>
+          <property>/sim/rendering/shaders/model</property>
+          <value>0</value>
+        </greater-than>
+    </and>
+  </not>
    </condition>
  </animation>
  
