@@ -7,7 +7,7 @@
  <animation>
   <type>scale</type>
   <object-name>Bounding_box</object-name>
-  <x-offset>1</x-offset><!-- length of full flame (1.0 = 3 meters) -->
+  <x-offset>1.5</x-offset><!-- length of full flame (1.0 = 3 meters) -->
   <y-offset>0.50</y-offset>
   <z-offset>0.50</z-offset>
  </animation>
