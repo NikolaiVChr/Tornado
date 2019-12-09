@@ -704,7 +704,7 @@ Tornado yasim config file
 			  </binding>
       	    </key>
             
-	    <key n="9">
+	    <!--<key n="9">
     <name>Tab</name>
     <desc>switch autobrake</desc>
     <binding>
@@ -714,7 +714,7 @@ Tornado yasim config file
      <value>4</value> 
      <value>5</value> 
     </binding>
-   </key>
+   </key>-->
 	
    <key n="101">
     <name>e</name>
