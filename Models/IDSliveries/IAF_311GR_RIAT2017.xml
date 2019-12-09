@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+	<sim>
+		<model>
+				<livery>
+					<name type="string">RIAT</name>
+					 <index type="int">1</index>
+					  <texture>IDSliveries/IAF_311GR_RIAT2017.jpg</texture>
+				</livery>
+		</model>
+	</sim>
+</PropertyList>
