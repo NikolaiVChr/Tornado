@@ -15,7 +15,7 @@ Tornado yasim config file
  
   <flight-model>yasim</flight-model>
   <aero>tornadoF3-yasim</aero>
-
+<variant-of>tornado-GR4a</variant-of>
 <startup>
    <splash-texture>Aircraft/Tornado/splash.png</splash-texture>
   </startup>
