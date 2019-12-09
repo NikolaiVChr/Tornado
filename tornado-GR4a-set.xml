@@ -19,6 +19,13 @@ Tornado yasim config file
   <startup>
    <splash-texture>Aircraft/Tornado/splash.png</splash-texture>
   </startup>
+  <previews>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>gui/preview/gr4-1.png</path>
+            </preview>
+  </previews>
   <systems>
      <!-- Autopilot for use on development FGFS 2.Git--> 
      
