@@ -6,8 +6,8 @@ Tornado yasim config file
 -->
 <PropertyList>
     <sim>
-        <description>Panavia Tornado GR4a</description>
-        <author>Heiko Schulz, Markus Zojer, Stuart C</author>
+        <description>Panavia Tornado GR4A</description>
+        <author>Heiko Schulz, Markus Zojer, StuartC, Algernon, Gary Brown</author>
         <status>V1.6c ALPHA</status>
         <flight-model>yasim</flight-model>
         <aero>tornado-yasim</aero>
