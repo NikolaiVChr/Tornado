@@ -353,7 +353,7 @@
 
  <model>
   <name>fuel flow</name>
-  <path>Aircraft/Tornado/Models/Interior/Instruments/common/FuelFlow/FF.xml</path>
+  <path>Aircraft/Tornado/Models/Interior/Instruments/common/Fuelflow/FF.xml</path>
   <offsets>
    <x-m>-4.55</x-m>
    <y-m>0.377</y-m>
