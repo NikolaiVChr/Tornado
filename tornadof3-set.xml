@@ -10,11 +10,11 @@ Tornado yasim config file
  <sim>
 
   <description>Panavia Tornado F3</description>
-  <author>Heiko Schulz, Markus Zojer, Stuart C</author>
+  <author>Heiko Schulz, Markus Zojer, StuartC, Algernon, Gary Brown</author>
   <status>V1.6c ALPHA</status>
  
   <flight-model>yasim</flight-model>
-  <aero>tornadoF3-yasim</aero>
+  <aero>tornadof3-yasim</aero>
 <variant-of>tornado-GR4a</variant-of>
 <startup>
    <splash-texture>Aircraft/Tornado/splash.png</splash-texture>

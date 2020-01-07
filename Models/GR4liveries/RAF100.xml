@@ -5,9 +5,9 @@
 	<sim>
 		<model>
 				<livery>
-					<name type="string">RIAT</name>
+					<name type="string">RAF - 100 year Anniversary</name>
 					 <index type="int">1</index>
-					  <texture>IDSliveries/IAF_311GR_RIAT2017.jpg</texture>
+					  <texture>GR4liveries/RAF100.jpg</texture>
 				</livery>
 		</model>
 	</sim>

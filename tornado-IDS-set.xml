@@ -10,7 +10,7 @@ Tornado yasim config file
  <sim>
 
   <description>Panavia Tornado IDS</description>
-  <author>Heiko Schulz, Markus Zojer, Stuart C</author>
+  <author>Heiko Schulz, Markus Zojer, StuartC, Algernon, Gary Brown</author>
   <status>V1.6c ALPHA</status>
  
   <flight-model>yasim</flight-model>

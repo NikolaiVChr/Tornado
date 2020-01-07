@@ -4,11 +4,14 @@
 <PropertyList>
 	<sim>
 		<model>
-				<livery>
-					<name type="string">Italian Iraqi War</name>
-					 <index type="int">1</index>
-					  <texture>IDSliveries/MM7074.jpg</texture>
-				</livery>
+			<livery>
+				<name type="string">AM, MM7074</name>
+				 <index type="int">1</index>
+				  <texture>IDSliveries/MM7074.jpg</texture>
+			</livery>
+			<Tornado>
+			<FuelHose type="bool">true</FuelHose>
+			</Tornado>
 		</model>
 	</sim>
 </PropertyList>

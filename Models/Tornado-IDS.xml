@@ -249,7 +249,7 @@
     </animation>
 	
 		 <effect>
-    <inherits-from>Aircraft/tornado/Models/MetalReflect</inherits-from>
+    <inherits-from>Aircraft/Tornado/Models/MetalReflect</inherits-from>
 	<object-name>End_nib</object-name>
     <object-name>FuelHose1</object-name>
     <object-name>FuelHose2</object-name>
@@ -266,7 +266,7 @@
   <!-- Burner Flame -->
 
  <model>
-    <path>Aircraft/tornado/Models/Effects/Afterburner/EJ200-L.xml</path>
+    <path>Aircraft/Tornado/Models/Effects/Afterburner/EJ200-L.xml</path>
 	 <offsets>
    <x-m>8.2</x-m>
    <y-m>-0.56</y-m>
@@ -277,7 +277,7 @@
  
  
   <model>
-    <path>Aircraft/tornado/Models/Effects/Afterburner/EJ200-R.xml</path>
+    <path>Aircraft/Tornado/Models/Effects/Afterburner/EJ200-R.xml</path>
 	 <offsets>
    <x-m>8.2</x-m>
    <y-m>0.56</y-m>
@@ -288,7 +288,7 @@
   
   <model>
   	<name>AB_flameL</name>
-    <path>Aircraft/tornado/Models/Effects/Afterburner/AfterBurner.xml</path>
+    <path>Aircraft/Tornado/Models/Effects/Afterburner/AfterBurner.xml</path>
 	 <offsets>
    <x-m>6.1</x-m>
    <y-m>-0.56</y-m>
@@ -299,7 +299,7 @@
  
   <model>
   	<name>AB_flameR</name>
-    <path>Aircraft/tornado/Models/Effects/Afterburner/AfterBurner.xml</path>
+    <path>Aircraft/Tornado/Models/Effects/Afterburner/AfterBurner.xml</path>
 	 <offsets>
    <x-m>6.1</x-m>
    <y-m>0.56</y-m>

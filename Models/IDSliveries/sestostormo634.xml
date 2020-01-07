@@ -5,9 +5,9 @@
 	<sim>
 		<model>
 				<livery>
-					<name type="string">RIAT</name>
+					<name type="string">634 SESTO STORMO</name>
 					 <index type="int">1</index>
-					  <texture>IDSliveries/IAF_311GR_RIAT2017.jpg</texture>
+					  <texture>IDSliveries/sestostormo634.jpg</texture>
 				</livery>
 		</model>
 	</sim>
