@@ -30,7 +30,7 @@
 	<selected type="int">3</selected>
    </enav>
   <radar>
-      <range type="int" archive="y">20</range>
+      <range type="int" archive="y">100</range>
       <range-factor type="double" archive="n">0.001888</range-factor>
       <minimized type="bool" archive="y">false</minimized>
       <selected type="int">2</selected>

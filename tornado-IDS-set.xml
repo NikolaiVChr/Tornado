@@ -25,10 +25,7 @@ Tornado yasim config file
 	 <autopilot>
          <path>Aircraft/Tornado/Systems/autopilot5.xml</path>
       </autopilot>
-<refuel>
-<type>probe</type>
-<serviceable type="bool">true</serviceable>
-</refuel>	  
+
 <mp-systems>
   <radar-enabled type="bool">true</radar-enabled>
   <ecm-rwr-enabled type="bool">true</ecm-rwr-enabled>
@@ -564,9 +561,13 @@ Tornado yasim config file
       </autopilot>
   
 <refuel>
-<type>probe</type>
-<serviceable type="bool">true</serviceable>
-</refuel>	  
+   <type>probe</type>
+   <serviceable type="bool">true</serviceable>
+   <max-fuel-transfer-lbs-min>6000</max-fuel-transfer-lbs-min>
+   <offset-x-m>0</offset-x-m>
+   <offset-y-m>0</offset-y-m>
+   <offset-z-m>0</offset-z-m>
+  </refuel>  
 
 
   </systems> 
@@ -840,7 +841,7 @@ Tornado yasim config file
 
 <enav><selected type="int">3</selected></enav>
  <radar>
-  <range type="int" archive="y">40</range>
+  <range type="int" archive="y">100</range>
   <range-factor type="double" archive="n">0.001888</range-factor>
   <minimized type="bool" archive="y">false</minimized>
   <selected type="int">3</selected>
@@ -946,10 +947,13 @@ Tornado yasim config file
 <file>Aircraft/Tornado/Nasal/low.nas</file>
 </low>
 	
-	<tornado-fuel>
+	<!--<tornado-fuel>
 		<module>fuel-aar</module>
 		<file>Aircraft/Generic/aar.nas</file>
-	</tornado-fuel>
+	</tornado-fuel>-->
+  <aar>
+   <file>Aircraft/Generic/aar.nas</file>
+  </aar>
 		<reversethrust>
 
     <file>Aircraft/Tornado/Nasal/reverse-thrust.nas</file>
