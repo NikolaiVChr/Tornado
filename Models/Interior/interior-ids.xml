@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
-
+<model>
+    <path>Aircraft/Tornado/Models/Interior/Instruments/panels/uhf-vhf.ac</path>
+    <offsets>
+      <heading-deg> 90 </heading-deg>
+      <x-m> -4.25 </x-m>
+      <y-m> 0.40 </y-m>
+      <z-m> 0.985 </z-m>
+    </offsets>
+  </model>
 
 <!-- pilots -->
 <model>
