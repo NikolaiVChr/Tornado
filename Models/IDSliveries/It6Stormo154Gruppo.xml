@@ -7,7 +7,7 @@
 				<livery>
 					<name type="string">AMI, 6 Stormo, 154° Gruppo</name>
 					 <index type="int">1</index>
-					  <texture>IDSliveries/It6Stormo154Gruppo.jpg</texture>
+					  <texture>IDSliveries/It6Stormo154Gruppo.xml</texture>
 				</livery>
 	<Tornado>
 	<FuelHose type="bool">true</FuelHose>
