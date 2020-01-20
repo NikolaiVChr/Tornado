@@ -234,6 +234,17 @@
          <object-name>right_internal_flame</object-name>
 	   
     </effect>
+    
+    <animation>
+        <type>select</type>
+        <object-name>heatcone.002</object-name>
+		<condition>
+            <not>
+            	<property>/sim/rendering/rembrandt/enabled</property>
+            </not>
+            <property>/sim/rendering/rembrandt/enabled</property>
+        </condition>
+    </animation>
 	
 	 <!-- Turns off non rembrant lighting and effects -->
 <animation>
