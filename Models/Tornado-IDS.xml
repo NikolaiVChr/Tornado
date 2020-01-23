@@ -238,8 +238,8 @@
     <animation>
         <type>select</type>
         <object-name>heatcone.002</object-name>
-        <object-name>blah.004</object-name>
-		<object-name>blah.005</object-name>
+        <!--<object-name>blah.004</object-name>
+		<object-name>blah.005</object-name>-->
 		<condition>
             <not>
             	<property>/sim/rendering/rembrandt/enabled</property>
